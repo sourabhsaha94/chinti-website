@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/chinti-website/static/css/main.a8307afd.chunk.css",
+    "main.js": "/chinti-website/static/js/main.d1d465b3.chunk.js",
+    "main.js.map": "/chinti-website/static/js/main.d1d465b3.chunk.js.map",
+    "runtime-main.js": "/chinti-website/static/js/runtime-main.dcfc67be.js",
+    "runtime-main.js.map": "/chinti-website/static/js/runtime-main.dcfc67be.js.map",
+    "static/css/2.0e1a4c73.chunk.css": "/chinti-website/static/css/2.0e1a4c73.chunk.css",
+    "static/js/2.62164328.chunk.js": "/chinti-website/static/js/2.62164328.chunk.js",
+    "static/js/2.62164328.chunk.js.map": "/chinti-website/static/js/2.62164328.chunk.js.map",
+    "index.html": "/chinti-website/index.html",
+    "precache-manifest.92db6019949c18e6f5c807e55a654e8b.js": "/chinti-website/precache-manifest.92db6019949c18e6f5c807e55a654e8b.js",
+    "service-worker.js": "/chinti-website/service-worker.js",
+    "static/css/2.0e1a4c73.chunk.css.map": "/chinti-website/static/css/2.0e1a4c73.chunk.css.map",
+    "static/css/main.a8307afd.chunk.css.map": "/chinti-website/static/css/main.a8307afd.chunk.css.map",
+    "static/js/2.62164328.chunk.js.LICENSE.txt": "/chinti-website/static/js/2.62164328.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcfc67be.js",
+    "static/css/2.0e1a4c73.chunk.css",
+    "static/js/2.62164328.chunk.js",
+    "static/css/main.a8307afd.chunk.css",
+    "static/js/main.d1d465b3.chunk.js"
+  ]
+}
