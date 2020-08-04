@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "31ae9354960bc7bcc46fa92b35620337",
+    "revision": "ee3941ead7716643300ea75ffd3833b7",
     "url": "/chinti-website/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chinti-website/static/css/2.0e1a4c73.chunk.css"
   },
   {
-    "revision": "d39ed47bc7e4273c21eb",
-    "url": "/chinti-website/static/css/main.a8307afd.chunk.css"
+    "revision": "064ea8bdf0561086271f",
+    "url": "/chinti-website/static/css/main.790ec907.chunk.css"
   },
   {
     "revision": "664956fb3494d9b4f4e6",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/chinti-website/static/js/2.62164328.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d39ed47bc7e4273c21eb",
+    "revision": "064ea8bdf0561086271f",
     "url": "/chinti-website/static/js/main.d1d465b3.chunk.js"
   },
   {
