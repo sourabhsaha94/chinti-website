@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/chinti-website/static/css/main.790ec907.chunk.css",
-    "main.js": "/chinti-website/static/js/main.d1d465b3.chunk.js",
-    "main.js.map": "/chinti-website/static/js/main.d1d465b3.chunk.js.map",
+    "main.js": "/chinti-website/static/js/main.44190f86.chunk.js",
+    "main.js.map": "/chinti-website/static/js/main.44190f86.chunk.js.map",
     "runtime-main.js": "/chinti-website/static/js/runtime-main.dcfc67be.js",
     "runtime-main.js.map": "/chinti-website/static/js/runtime-main.dcfc67be.js.map",
     "static/css/2.0e1a4c73.chunk.css": "/chinti-website/static/css/2.0e1a4c73.chunk.css",
-    "static/js/2.62164328.chunk.js": "/chinti-website/static/js/2.62164328.chunk.js",
-    "static/js/2.62164328.chunk.js.map": "/chinti-website/static/js/2.62164328.chunk.js.map",
+    "static/js/2.cf10e71f.chunk.js": "/chinti-website/static/js/2.cf10e71f.chunk.js",
+    "static/js/2.cf10e71f.chunk.js.map": "/chinti-website/static/js/2.cf10e71f.chunk.js.map",
     "index.html": "/chinti-website/index.html",
-    "precache-manifest.7d9604cb31f712224be19cc39bc57819.js": "/chinti-website/precache-manifest.7d9604cb31f712224be19cc39bc57819.js",
+    "precache-manifest.d6fd0129bca964eb802d12154b80f1d3.js": "/chinti-website/precache-manifest.d6fd0129bca964eb802d12154b80f1d3.js",
     "service-worker.js": "/chinti-website/service-worker.js",
     "static/css/2.0e1a4c73.chunk.css.map": "/chinti-website/static/css/2.0e1a4c73.chunk.css.map",
     "static/css/main.790ec907.chunk.css.map": "/chinti-website/static/css/main.790ec907.chunk.css.map",
-    "static/js/2.62164328.chunk.js.LICENSE.txt": "/chinti-website/static/js/2.62164328.chunk.js.LICENSE.txt"
+    "static/js/2.cf10e71f.chunk.js.LICENSE.txt": "/chinti-website/static/js/2.cf10e71f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dcfc67be.js",
     "static/css/2.0e1a4c73.chunk.css",
-    "static/js/2.62164328.chunk.js",
+    "static/js/2.cf10e71f.chunk.js",
     "static/css/main.790ec907.chunk.css",
-    "static/js/main.d1d465b3.chunk.js"
+    "static/js/main.44190f86.chunk.js"
   ]
 }
