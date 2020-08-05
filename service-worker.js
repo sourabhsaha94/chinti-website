@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/chinti-website/precache-manifest.d6fd0129bca964eb802d12154b80f1d3.js"
+  "/chinti-website/precache-manifest.565d5fc96ff9780d60643c86e5acf59d.js"
 );
 
 self.addEventListener('message', (event) => {
