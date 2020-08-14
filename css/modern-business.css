@@ -1,0 +1,60 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+  background-image: url("../img/background.jpg");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ea0a8e;
+  color: #ea0a8e;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar .navbar-brand{
+  color: #ea0a8e;
+}
+.navbar .btn-outline-success:hover {
+  background-color: #ea0a8e;
+  border-color: #ea0a8e;
+  color: white;
+}
+.navbar .btn-outline-success {
+  background-color: white;
+  border-color: #ea0a8e;
+  color: #ea0a8e;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.jumbotron {
+  margin-bottom: 0em;
+}
+#about-us, #featured {
+  margin: 2em;
+  color: black;
+}
+
+#featured a{
+  color: black;
+}
+
+#about-us .jumbotron{
+  color: #ea0a8e;
+}
+
