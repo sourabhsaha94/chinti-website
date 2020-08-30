@@ -25,6 +25,19 @@ body {
   background-size: cover;
 }
 
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: black;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
+
 .navbar .navbar-brand{
   color: #ea0a8e;
 }
@@ -56,5 +69,9 @@ body {
 
 #about-us .jumbotron{
   color: #ea0a8e;
+}
+
+#featured .card-img-top {
+  min-height: 13em;
 }
 
