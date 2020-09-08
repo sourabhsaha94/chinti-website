@@ -12,7 +12,8 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Cantata+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
 
@@ -22,103 +23,48 @@
 
   <!-- Navigation -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
+    <div class="container-fluid">
       <a class="navbar-brand" href="index.html"><h2>Celbio</h2></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="products.html">Products</a>
+            <a class="nav-link" href="products.html">Instruments</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link" href="products.html">Reagents</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Customer Support</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <header>
-    <div class="jumbotron jumbotron-fluid bg-light text-center">
+    <div class="jumbotron jumbotron-fluid text-center" style="background-color: white;">
       <div class="container">
-        <h1 class="display-1">Celbio</h1>
-        <p class="lead display-5 text-dark">Diagnostic Pvt.Ltd.</p>
+        <img src="./img/logo/logo.png" class="img img-fluid"/>
+        <div>
+          <i style="color: cornflowerblue; font-family: 'Satisfy',cursive; font-size: xx-large;">"30 years of industry experience"</i>
+        </div>
+        <!-- <h1 class="display-1">Celbio</h1>
+        <p class="lead display-5 text-dark">Diagnostic Pvt.Ltd.</p> -->
       </div>
-    </div>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('./img/banner/product1.jpeg')">
-        </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('./img/banner/product2.jpeg')">
-        </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('./img/banner/product3.jpeg')">
-        </div>
-        <!-- Slide Four - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('./img/banner/product4.jpeg')">
-        </div>
-        <!-- Slide Five - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('./img/banner/product5.jpeg')">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
   </header>
 
   <!-- Page Content -->
-  <div class="container">
-    <!-- About us Section -->
-    <div class="row" id="about-us">
+  <div class="container-fluid">
+    <div class="row my-4 mx-0" id="featured">
       <div class="col-lg-12 mb-12">
         <div class="card h-100">
-          <h4 class="card-header">About Us</h4>
-          <div class="card-body">
-            <p class="card-text">
-              <div class="row">
-                <div class="col-lg-12 mb-12">
-                  <div class="jumbotron jumbotron-fluid bg-light text-center">
-                    <div class="container">
-                      <h1 class="display-2">Celbio</h1>
-                      <p class="lead text-dark">Diagnostic Pvt.Ltd.</p>
-                    </div>
-                  </div>
-                  <div class="mx-4 my-4 text-center font-italic">
-                    "We are a company with over <b>30 years</b> of experience in the In-vitro diagnostic product line. We are also experienced in dealing with an array of healthcare products. Our company is known for providing prompt and quality service. We have a great logistic network and an excellent client base. Our moto is to build a blooming and long-term relationship with our clients."
-                  </div>
-                </div>
-              </div>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <div class="row" id="featured">
-      <div class="col-lg-12 mb-12">
-        <div class="card h-100">
-          <h4 class="card-header">Featured Products</h4>
+          <h4 class="card-header">COVID-19 Products</h4>
           <div class="card-body">
             <p class="card-text">
               <div class="row">
@@ -180,6 +126,33 @@ separation technology which determines the sensitivity, accuracy and precision o
         </div>
       </div>
     </div>
+    <!-- About us Section -->
+    <!-- <div class="row" id="about-us">
+      <div class="col-lg-12 mb-12">
+        <div class="card h-100">
+          <h4 class="card-header">About Us</h4>
+          <div class="card-body">
+            <p class="card-text">
+              <div class="row">
+                <div class="col-lg-12 mb-12">
+                  <div class="jumbotron jumbotron-fluid bg-light text-center">
+                    <div class="container">
+                      <img src="./img/logo/logo.png" class="img img-fluid"/>
+                    </div>
+                  </div>
+                  <div class="mx-4 my-4 text-center font-italic">
+                    "We are a company with over <b>30 years</b> of experience in the In-vitro diagnostic product line. We are also experienced in dealing with an array of healthcare products. Our company is known for providing prompt and quality service. We have a great logistic network and an excellent client base. Our moto is to build a blooming and long-term relationship with our clients."
+                  </div>
+                </div>
+              </div>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- /.row -->
+
+    
     <!-- /.row -->
 
   </div>

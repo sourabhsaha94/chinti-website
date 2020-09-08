@@ -5,19 +5,18 @@
  */
 body {
   padding-top: 56px;
-  background-image: url("../img/background.jpg");
   background-position: 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #ea0a8e;
+  background-color: #c2d7fc;
   color: #ea0a8e;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Cantata One', serif;
 }
 
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
+  height: auto;
+  width: 100%;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,18 +24,13 @@ body {
   background-size: cover;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: black;
+.navbar .container {
+  width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
 }
 
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: black;
-}
 
 .navbar .navbar-brand{
   color: #ea0a8e;
@@ -51,15 +45,18 @@ body {
   border-color: #ea0a8e;
   color: #ea0a8e;
 }
-
 .portfolio-item {
   margin-bottom: 30px;
 }
 .jumbotron {
   margin-bottom: 0em;
 }
-#about-us, #featured {
+#about-us {
   margin: 2em;
+  color: black;
+}
+
+#featured {
   color: black;
 }
 
