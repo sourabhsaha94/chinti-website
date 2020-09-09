@@ -14,16 +14,6 @@ body {
   font-family: 'Cantata One', serif;
 }
 
-.carousel-item {
-  height: auto;
-  width: 100%;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .navbar .container {
   width: 100%;
     width: -moz-available;          /* WebKit-based browsers will ignore this. */
@@ -45,11 +35,30 @@ body {
   border-color: #ea0a8e;
   color: #ea0a8e;
 }
+
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
 .portfolio-item {
   margin-bottom: 30px;
 }
 .jumbotron {
   margin-bottom: 0em;
+}
+
+.jumbotron i{
+  color: cornflowerblue; font-family: 'Satisfy',cursive; font-size: larger;
+}
+
+.jumbotron .img-fluid {
+  width: 30em;
+  height: auto;
 }
 #about-us {
   margin: 2em;
