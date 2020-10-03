@@ -9,9 +9,17 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #e3fcfc;
+  background-color: #46B1C9;
   color: #ea1889;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.logo {
   font-family: 'Cantata One', serif;
+}
+
+.bg-light{
+  background-color: white !important;
 }
 
 .navbar .container {
